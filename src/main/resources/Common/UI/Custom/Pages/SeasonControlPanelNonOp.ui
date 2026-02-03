@@ -1,0 +1,66 @@
+$C = "../Common.ui";
+
+Group {
+  Anchor: (Width: 400, Height: 280);
+  Background: #17222F(0.98);
+  LayoutMode: Top;
+  Padding: (Full: 16);
+
+  Label {
+    Text: "Season Control Panel";
+    Anchor: (Height: 40);
+    Style: (FontSize: 26, TextColor: #64c8ff, RenderBold: true);
+  }
+
+  Group {
+    Anchor: (Height: 16);
+  }
+
+  Group {
+    LayoutMode: Top;
+    Anchor: (Height: 100);
+    Background: #1a2332(0.6);
+    Padding: (Full: 12);
+
+    Label #CurrentSeasonLabel {
+      Text: "Spring";
+      Anchor: (Height: 24);
+      Style: (FontSize: 20, TextColor: #64c8ff, RenderBold: true);
+    }
+
+    Label #DayProgressLabel {
+      Text: "Day 0 / 90";
+      Anchor: (Height: 18);
+      Style: (FontSize: 12, TextColor: #b4b4b4);
+    }
+
+    Group {
+      Anchor: (Height: 10);
+    }
+
+    Group {
+      Anchor: (Height: 8);
+      Background: #2c3e50;
+      LayoutMode: Left;
+
+      Group #ProgressBarFill {
+        Anchor: (Width: 0, Height: 8);
+        Background: #2ECC71;
+      }
+    }
+  }
+
+  Group {
+    FlexWeight: 1;
+  }
+
+  Group {
+    LayoutMode: Center;
+    Anchor: (Height: 36);
+
+    TextButton #OpenWeatherButton {
+      Text: "WEATHER";
+      Anchor: (Width: 120, Height: 32);
+    }
+  }
+}

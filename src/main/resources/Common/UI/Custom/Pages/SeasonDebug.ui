@@ -1,0 +1,292 @@
+$C = "../Common.ui";
+
+@ActionButtonStyle = TextButtonStyle(
+  Default: (Background: #2b3542, LabelStyle: (FontSize: 11, TextColor: #ffffff, RenderBold: false, HorizontalAlignment: Center, VerticalAlignment: Center)),
+  Hovered: (Background: #3b4552, LabelStyle: (FontSize: 11, TextColor: #ffffff, RenderBold: false, HorizontalAlignment: Center, VerticalAlignment: Center)),
+  Pressed: (Background: #1b2532, LabelStyle: (FontSize: 11, TextColor: #ffffff, RenderBold: false, HorizontalAlignment: Center, VerticalAlignment: Center))
+);
+
+Group {
+  Anchor: (Width: 900, Height: 450);
+  Background: #17222F(0.98);
+  LayoutMode: Top;
+  Padding: (Full: 16);
+
+  Group {
+    Anchor: (Height: 20);
+  }
+
+  Label {
+    Text: "Season Controls";
+    Anchor: (Height: 14);
+    Style: (FontSize: 11, TextColor: #96a9be, RenderBold: true);
+  }
+
+  Group {
+    LayoutMode: Left;
+    Anchor: (Height: 32);
+
+    TextButton #SpringButton {
+      Text: "SPRING";
+      Anchor: (Width: 100, Height: 28);
+      Style: @ActionButtonStyle;
+    }
+
+    Group {
+      Anchor: (Width: 6);
+    }
+
+    TextButton #SummerButton {
+      Text: "SUMMER";
+      Anchor: (Width: 100, Height: 28);
+      Style: @ActionButtonStyle;
+    }
+
+    Group {
+      Anchor: (Width: 6);
+    }
+
+    TextButton #FallButton {
+      Text: "FALL";
+      Anchor: (Width: 100, Height: 28);
+      Style: @ActionButtonStyle;
+    }
+
+    Group {
+      Anchor: (Width: 6);
+    }
+
+    TextButton #WinterButton {
+      Text: "WINTER";
+      Anchor: (Width: 100, Height: 28);
+      Style: @ActionButtonStyle;
+    }
+  }
+
+  Group {
+    Anchor: (Height: 12);
+  }
+
+  Label {
+    Text: "Sleep Progression";
+    Anchor: (Height: 14);
+    Style: (FontSize: 11, TextColor: #96a9be, RenderBold: true);
+  }
+
+  Group {
+    LayoutMode: Left;
+    Anchor: (Height: 32);
+
+    Label {
+      Text: "Progress: 0% (0/5 sleeps)";
+      Anchor: (Width: 200);
+      Style: (FontSize: 10, TextColor: #b4b4b4, VerticalAlignment: Center);
+    }
+
+    Group {
+      Anchor: (Width: 8);
+    }
+
+    TextButton #AddProgressButton {
+      Text: "+20%";
+      Anchor: (Width: 60, Height: 28);
+      Style: @ActionButtonStyle;
+    }
+
+    Group {
+      Anchor: (Width: 4);
+    }
+
+    TextButton #SimulateSleepButton {
+      Text: "SLEEP";
+      Anchor: (Width: 70, Height: 28);
+      Style: @ActionButtonStyle;
+    }
+
+    Group {
+      Anchor: (Width: 4);
+    }
+
+    TextButton #ResetProgressButton {
+      Text: "RESET";
+      Anchor: (Width: 60, Height: 28);
+      Style: @ActionButtonStyle;
+    }
+  }
+
+  Group {
+    Anchor: (Height: 12);
+  }
+
+  Label {
+    Text: "Time Manipulation";
+    Anchor: (Height: 14);
+    Style: (FontSize: 11, TextColor: #96a9be, RenderBold: true);
+  }
+
+  Group {
+    LayoutMode: Top;
+    Anchor: (Height: 60);
+
+    Group {
+      LayoutMode: Left;
+      Anchor: (Height: 28);
+
+      Label {
+        Text: "Days:";
+        Anchor: (Width: 45);
+        Style: (FontSize: 10, TextColor: #b4b4b4, VerticalAlignment: Center);
+      }
+
+      Group {
+        Anchor: (Width: 6);
+      }
+
+      $C.@TextField #DaysToAdvanceInput {
+        Anchor: (Width: 70, Height: 24);
+        PlaceholderText: "0";
+      }
+
+      Group {
+        Anchor: (Width: 6);
+      }
+
+      TextButton #AdvanceButton {
+        Text: "GO";
+        Anchor: (Width: 50, Height: 24);
+        Style: @ActionButtonStyle;
+      }
+    }
+
+    Group {
+      Anchor: (Height: 8);
+    }
+
+    Group {
+      LayoutMode: Left;
+      Anchor: (Height: 24);
+
+      TextButton #Advance1DayButton {
+        Text: "+1 Day";
+        Anchor: (Width: 70, Height: 24);
+        Style: @ActionButtonStyle;
+      }
+
+      Group {
+        Anchor: (Width: 4);
+      }
+
+      TextButton #Advance7DaysButton {
+        Text: "+7 Days";
+        Anchor: (Width: 70, Height: 24);
+        Style: @ActionButtonStyle;
+      }
+
+      Group {
+        Anchor: (Width: 4);
+      }
+
+      TextButton #Advance30DaysButton {
+        Text: "+30 Days";
+        Anchor: (Width: 70, Height: 24);
+        Style: @ActionButtonStyle;
+      }
+
+      Group {
+        Anchor: (Width: 4);
+      }
+
+      TextButton #NextSeasonButton {
+        Text: "NEXT";
+        Anchor: (Width: 50, Height: 24);
+        Style: @ActionButtonStyle;
+      }
+
+      Group {
+        Anchor: (Width: 4);
+      }
+
+      TextButton #ResetButton {
+        Text: "RESET";
+        Anchor: (Width: 50, Height: 24);
+        Style: @ActionButtonStyle;
+      }
+    }
+  }
+
+  Group {
+    Anchor: (Height: 12);
+  }
+
+  Label {
+    Text: "Echo Worlds";
+    Anchor: (Height: 14);
+    Style: (FontSize: 11, TextColor: #96a9be, RenderBold: true);
+  }
+
+  Group {
+    LayoutMode: Left;
+    Anchor: (Height: 32);
+
+    TextButton #EchoSPRINGButton {
+      Text: "SPRING";
+      Anchor: (Width: 90, Height: 28);
+      Style: @ActionButtonStyle;
+    }
+
+    Group {
+      Anchor: (Width: 4);
+    }
+
+    TextButton #EchoSUMMERButton {
+      Text: "SUMMER";
+      Anchor: (Width: 90, Height: 28);
+      Style: @ActionButtonStyle;
+    }
+
+    Group {
+      Anchor: (Width: 4);
+    }
+
+    TextButton #EchoFALLButton {
+      Text: "FALL";
+      Anchor: (Width: 90, Height: 28);
+      Style: @ActionButtonStyle;
+    }
+
+    Group {
+      Anchor: (Width: 4);
+    }
+
+    TextButton #EchoWINTERButton {
+      Text: "WINTER";
+      Anchor: (Width: 90, Height: 28);
+      Style: @ActionButtonStyle;
+    }
+
+    Group {
+      Anchor: (Width: 4);
+    }
+
+    TextButton #EchoReturnButton {
+      Text: "RETURN";
+      Anchor: (Width: 90, Height: 28);
+      Style: @ActionButtonStyle;
+    }
+  }
+
+  Group {
+    FlexWeight: 1;
+  }
+
+  Group {
+    LayoutMode: Left;
+    Anchor: (Height: 32);
+
+    TextButton #BackButton {
+      Text: "BACK";
+      Anchor: (Width: 100, Height: 28);
+      Style: @ActionButtonStyle;
+    }
+  }
+}

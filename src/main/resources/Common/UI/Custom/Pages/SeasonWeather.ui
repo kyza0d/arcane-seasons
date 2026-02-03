@@ -1,0 +1,226 @@
+$C = "../Common.ui";
+
+Group {
+  Anchor: (Width: 700, Height: 550);
+  Background: #17222F(0.98);
+  LayoutMode: Top;
+  Padding: (Full: 16);
+
+  Label {
+    Text: "Season Weather Info";
+    Anchor: (Height: 32);
+    Style: (FontSize: 26, TextColor: #64c8ff, RenderBold: true);
+  }
+
+  Group {
+    Anchor: (Height: 12);
+  }
+
+  Group {
+    LayoutMode: Top;
+    Anchor: (Height: 140);
+    Background: #1a2332(0.6);
+    Padding: (Full: 12);
+
+    Label {
+      Text: "Current Season Modifiers";
+      Anchor: (Height: 18);
+      Style: (FontSize: 12, TextColor: #96a9be, RenderBold: true);
+    }
+
+    Group {
+      Anchor: (Height: 8);
+    }
+
+    Group {
+      LayoutMode: Left;
+      Anchor: (Height: 28);
+
+      Label {
+        Text: "Rainfall:";
+        Anchor: (Width: 110);
+        Style: (FontSize: 11, TextColor: #96a9be, VerticalAlignment: Center);
+      }
+
+      Group {
+        Anchor: (Width: 100, Height: 16);
+        Background: #2c3e50;
+        LayoutMode: Left;
+
+        Group #RainfallBar {
+          Anchor: (Width: 0, Height: 16);
+          Background: #3498DB;
+        }
+      }
+
+      Group {
+        Anchor: (Width: 12);
+      }
+
+      Label #RainfallValue {
+        Text: "0.7";
+        Anchor: (Width: 50);
+        Style: (FontSize: 11, TextColor: #3498DB, HorizontalAlignment: Center);
+      }
+    }
+
+    Group {
+      Anchor: (Height: 8);
+    }
+
+    Group {
+      LayoutMode: Left;
+      Anchor: (Height: 28);
+
+      Label {
+        Text: "Snow:";
+        Anchor: (Width: 110);
+        Style: (FontSize: 11, TextColor: #96a9be, VerticalAlignment: Center);
+      }
+
+      Group {
+        Anchor: (Width: 100, Height: 16);
+        Background: #2c3e50;
+        LayoutMode: Left;
+
+        Group #SnowBar {
+          Anchor: (Width: 0, Height: 16);
+          Background: #ECF0F1;
+        }
+      }
+
+      Group {
+        Anchor: (Width: 12);
+      }
+
+      Label #SnowValue {
+        Text: "0.1";
+        Anchor: (Width: 50);
+        Style: (FontSize: 11, TextColor: #ECF0F1, HorizontalAlignment: Center);
+      }
+    }
+
+    Group {
+      Anchor: (Height: 8);
+    }
+
+    Group {
+      LayoutMode: Left;
+      Anchor: (Height: 28);
+
+      Label {
+        Text: "Temperature:";
+        Anchor: (Width: 110);
+        Style: (FontSize: 11, TextColor: #96a9be, VerticalAlignment: Center);
+      }
+
+      Group {
+        Anchor: (Width: 100, Height: 16);
+        Background: #2c3e50;
+        LayoutMode: Left;
+
+        Group #TemperatureBar {
+          Anchor: (Width: 0, Height: 16);
+          Background: #E74C3C;
+        }
+      }
+
+      Group {
+        Anchor: (Width: 12);
+      }
+
+      Label #TemperatureValue {
+        Text: "0.6";
+        Anchor: (Width: 50);
+        Style: (FontSize: 11, TextColor: #E74C3C, HorizontalAlignment: Center);
+      }
+    }
+
+    Group {
+      Anchor: (Height: 8);
+    }
+
+    Label #NextSeasonInfo {
+      Text: "Next season in 0 days";
+      Anchor: (Height: 18);
+      Style: (FontSize: 11, TextColor: #2ECC71);
+    }
+  }
+
+  Group {
+    Anchor: (Height: 12);
+  }
+
+  Label {
+    Text: "Season Information";
+    Anchor: (Height: 16);
+    Style: (FontSize: 12, TextColor: #96a9be, RenderBold: true);
+  }
+
+  Group #ComparisonScroll {
+    FlexWeight: 1;
+    LayoutMode: Top;
+
+    Label {
+      Text: "Spring";
+      Anchor: (Height: 20);
+      Style: (FontSize: 12, TextColor: #64c8ff, RenderBold: true);
+    }
+
+    Label {
+      Text: "Days: 0-89 | Rainfall: 0.7 | Snow: 0.1 | Temp: 0.6";
+      Anchor: (Height: 60);
+      Style: (FontSize: 10, TextColor: #b4b4b4, Wrap: true);
+    }
+
+    Label {
+      Text: "Summer";
+      Anchor: (Height: 20);
+      Style: (FontSize: 12, TextColor: #27AE60, RenderBold: true);
+    }
+
+    Label {
+      Text: "Days: 90-179 | Rainfall: 0.3 | Snow: 0.0 | Temp: 1.0";
+      Anchor: (Height: 60);
+      Style: (FontSize: 10, TextColor: #b4b4b4, Wrap: true);
+    }
+
+    Label {
+      Text: "Fall";
+      Anchor: (Height: 20);
+      Style: (FontSize: 12, TextColor: #E67E22, RenderBold: true);
+    }
+
+    Label {
+      Text: "Days: 180-269 | Rainfall: 0.6 | Snow: 0.2 | Temp: 0.7";
+      Anchor: (Height: 60);
+      Style: (FontSize: 10, TextColor: #b4b4b4, Wrap: true);
+    }
+
+    Label {
+      Text: "Winter";
+      Anchor: (Height: 20);
+      Style: (FontSize: 12, TextColor: #BDC3C7, RenderBold: true);
+    }
+
+    Label {
+      Text: "Days: 270-359 | Rainfall: 0.5 | Snow: 0.8 | Temp: 0.3";
+      Anchor: (Height: 60);
+      Style: (FontSize: 10, TextColor: #b4b4b4, Wrap: true);
+    }
+  }
+
+  Group {
+    Anchor: (Height: 8);
+  }
+
+  Group {
+    LayoutMode: Center;
+    Anchor: (Height: 32);
+
+    TextButton #BackButton {
+      Text: "BACK";
+      Anchor: (Width: 120, Height: 28);
+    }
+  }
+}

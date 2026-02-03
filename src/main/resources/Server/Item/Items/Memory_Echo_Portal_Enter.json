@@ -1,0 +1,52 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Memory_Echo_Portal_Enter.name",
+    "Description": "items.Memory_Echo_Portal_Enter.description"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Blocks.Miscellaneous"
+  ],
+  "Icon": "Icons/ItemsGenerated/Memory_Echo_Portal_Enter.png",
+  "BlockType": {
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Stone",
+    "CustomModel": "Blocks/Dungeons/Book.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Dungeons/Book_Purple.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "Material": "Solid",
+    "HitboxType": "Full",
+    "Opacity": "Transparent",
+    "ParticleColor": "#4a90d9",
+    "VariantRotation": "NESW",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "EchoTeleport"
+          }
+        ]
+      }
+    },
+    "InteractionHint": "Enter Echo World"
+  },
+  "Tags": {
+    "Type": [
+      "Blocks"
+    ],
+    "Family": [
+      "Portal"
+    ]
+  }
+}

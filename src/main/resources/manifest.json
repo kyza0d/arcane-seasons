@@ -1,0 +1,8 @@
+{
+  "Group": "com.hypixel.seasons",
+  "Name": "Seasons",
+  "Version": "1.0.0",
+  "Main": "com.hypixel.seasons.SeasonsPlugin",
+  "IncludesAssetPack": true,
+  "ServerVersion": ">=1.0.0"
+}

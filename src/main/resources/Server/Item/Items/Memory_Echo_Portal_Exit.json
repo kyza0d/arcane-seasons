@@ -1,0 +1,52 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Memory_Echo_Portal_Exit.name",
+    "Description": "items.Memory_Echo_Portal_Exit.description"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Blocks.Miscellaneous"
+  ],
+  "Icon": "Icons/ItemsGenerated/Memory_Echo_Portal_Exit.png",
+  "BlockType": {
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Stone",
+    "CustomModel": "Blocks/Miscellaneous/Platform_Magic_Exit.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Miscellaneous/Platform_Magic_Blue2.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "Material": "Solid",
+    "HitboxType": "Full",
+    "Opacity": "Transparent",
+    "ParticleColor": "#4a90d9",
+    "VariantRotation": "NESW",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "EchoReturn"
+          }
+        ]
+      }
+    },
+    "InteractionHint": "Return Home"
+  },
+  "Tags": {
+    "Type": [
+      "Blocks"
+    ],
+    "Family": [
+      "Portal"
+    ]
+  }
+}

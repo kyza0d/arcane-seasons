@@ -1,0 +1,143 @@
+$C = "../Common.ui";
+
+Group {
+  Anchor: (Width: 500, Height: 400);
+  Background: #17222F(0.98);
+  LayoutMode: Top;
+  Padding: (Full: 16);
+
+  Label {
+    Text: "Memory Echo Portal";
+    Anchor: (Height: 36);
+    Style: (FontSize: 24, TextColor: #64c8ff, RenderBold: true);
+  }
+
+  Group {
+    Anchor: (Height: 12);
+  }
+
+  Label {
+    Text: "Select an Echo to visit:";
+    Anchor: (Height: 20);
+    Style: (FontSize: 12, TextColor: #96a9be);
+  }
+
+  Group {
+    Anchor: (Height: 8);
+  }
+
+  Group {
+    FlexWeight: 1;
+    LayoutMode: Top;
+    Background: #1a2332(0.4);
+    Padding: (Full: 8);
+
+    Group {
+      Anchor: (Height: 78);
+      Background: #2c3e50;
+      Padding: (Full: 8);
+      LayoutMode: Top;
+
+      Label {
+        Text: "Spring Echo";
+        Anchor: (Height: 18);
+        Style: (FontSize: 13, TextColor: #64c8ff, RenderBold: true);
+      }
+
+      Label {
+        Text: "A verdant spring realm";
+        Anchor: (Height: 32);
+        Style: (FontSize: 10, TextColor: #b4b4b4, Wrap: true);
+      }
+
+      TextButton #SpringEchoButton {
+        Text: "SELECT";
+        Anchor: (Width: 80, Height: 18);
+      }
+    }
+
+    Group {
+      Anchor: (Height: 6);
+    }
+
+    Group {
+      Anchor: (Height: 78);
+      Background: #2c3e50;
+      Padding: (Full: 8);
+      LayoutMode: Top;
+
+      Label {
+        Text: "Summer Echo";
+        Anchor: (Height: 18);
+        Style: (FontSize: 13, TextColor: #27AE60, RenderBold: true);
+      }
+
+      Label {
+        Text: "A warm summer realm";
+        Anchor: (Height: 32);
+        Style: (FontSize: 10, TextColor: #b4b4b4, Wrap: true);
+      }
+
+      TextButton #SummerEchoButton {
+        Text: "SELECT";
+        Anchor: (Width: 80, Height: 18);
+      }
+    }
+
+    Group {
+      Anchor: (Height: 6);
+    }
+
+    Group {
+      Anchor: (Height: 78);
+      Background: #2c3e50;
+      Padding: (Full: 8);
+      LayoutMode: Top;
+
+      Label {
+        Text: "Fall Echo";
+        Anchor: (Height: 18);
+        Style: (FontSize: 13, TextColor: #E67E22, RenderBold: true);
+      }
+
+      Label {
+        Text: "An autumn harvest realm";
+        Anchor: (Height: 32);
+        Style: (FontSize: 10, TextColor: #b4b4b4, Wrap: true);
+      }
+
+      TextButton #FallEchoButton {
+        Text: "SELECT";
+        Anchor: (Width: 80, Height: 18);
+      }
+    }
+
+    Group {
+      Anchor: (Height: 6);
+    }
+
+    Group {
+      Anchor: (Height: 78);
+      Background: #2c3e50;
+      Padding: (Full: 8);
+      LayoutMode: Top;
+
+      Label {
+        Text: "Winter Echo";
+        Anchor: (Height: 18);
+        Style: (FontSize: 13, TextColor: #BDC3C7, RenderBold: true);
+      }
+
+      Label {
+        Text: "A frozen winter realm";
+        Anchor: (Height: 32);
+        Style: (FontSize: 10, TextColor: #b4b4b4, Wrap: true);
+      }
+
+      TextButton #WinterEchoButton {
+        Text: "SELECT";
+        Anchor: (Width: 80, Height: 18);
+      }
+    }
+  }
+}
