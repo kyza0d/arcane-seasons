@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.hypixel.seasons'
+version = '1.0.0'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    implementation files('libs/hytale-api.jar')
+}
+
+jar {
+    manifest {
+        attributes(
+            'Implementation-Title': 'Seasons',
+            'Implementation-Version': version
+        )
+    }
+}

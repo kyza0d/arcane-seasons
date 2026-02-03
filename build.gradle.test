@@ -1,0 +1,51 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.hypixel.seasons'
+version = '1.0.0'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    implementation files('libs/hytale-api.jar')
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java']
+
+//            exclude 'com/hypixel/seasons/commands/**'
+//            exclude 'com/hypixel/seasons/echo/EchoManager.java'
+//            exclude 'com/hypixel/seasons/events/PortalInteractionListener.java'
+//            exclude 'com/hypixel/seasons/resources/SeasonResource.java'
+//            exclude 'com/hypixel/seasons/structures/SeasonStructureInitializer.java'
+//            exclude 'com/hypixel/seasons/systems/**'
+//            exclude 'com/hypixel/seasons/ui/**'
+//            exclude 'com/hypixel/seasons/util/SeasonTestRunner.java'
+//            exclude 'com/hypixel/seasons/SeasonsModule.java'
+//            exclude 'com/hypixel/seasons/SeasonsPlugin.java'
+        }
+    }
+}
+
+jar {
+    manifest {
+        attributes(
+            'Implementation-Title': 'Seasons',
+            'Implementation-Version': version
+        )
+    }
+}
