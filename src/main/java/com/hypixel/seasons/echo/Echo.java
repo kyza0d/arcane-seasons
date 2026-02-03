@@ -5,8 +5,7 @@ import com.hypixel.seasons.Season;
 public enum Echo {
     SPRING("spring_echo", "Spring Echo", "SpringEchoTemplate", "A verdant spring realm", "spring_echo"),
     SUMMER("summer_echo", "Summer Echo", "SummerEchoTemplate", "A warm summer realm", "summer_echo"),
-    FALL("fall_echo", "Fall Echo", "FallEchoTemplate", "An autumn harvest realm", "fall_echo"),
-    WINTER("winter_echo", "Winter Echo", "WinterEchoTemplate", "A frozen winter realm", "winter_echo");
+    FALL("fall_echo", "Fall Echo", "FallEchoTemplate", "An autumn harvest realm", "fall_echo");
 
     private final String id;
     private final String displayName;
