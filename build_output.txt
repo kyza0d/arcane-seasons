@@ -1,0 +1,1077 @@
+
+> Task :compileJava FAILED
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:3: error: cannot access CreativeHubPlugin
+import com.hypixel.hytale.builtin.creativehub.CreativeHubPlugin;
+                                             ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/builtin/creativehub/CreativeHubPlugin.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:4: error: cannot access InstancesPlugin
+import com.hypixel.hytale.builtin.instances.InstancesPlugin;
+                                           ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/builtin/instances/InstancesPlugin.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:5: error: cannot access InstanceEntityConfig
+import com.hypixel.hytale.builtin.instances.config.InstanceEntityConfig;
+                                                  ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/builtin/instances/config/InstanceEntityConfig.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:6: error: cannot access WorldReturnPoint
+import com.hypixel.hytale.builtin.instances.config.WorldReturnPoint;
+                                                  ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/builtin/instances/config/WorldReturnPoint.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:7: error: cannot access Archetype
+import com.hypixel.hytale.component.Archetype;
+                                   ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/component/Archetype.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:8: error: cannot access Ref
+import com.hypixel.hytale.component.Ref;
+                                   ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/component/Ref.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:9: error: cannot access Store
+import com.hypixel.hytale.component.Store;
+                                   ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/component/Store.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:10: error: cannot access Transform
+import com.hypixel.hytale.math.vector.Transform;
+                                     ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/math/vector/Transform.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:11: error: cannot access Vector3d
+import com.hypixel.hytale.math.vector.Vector3d;
+                                     ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/math/vector/Vector3d.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:12: error: cannot access Vector3f
+import com.hypixel.hytale.math.vector.Vector3f;
+                                     ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/math/vector/Vector3f.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:13: error: cannot access UUIDComponent
+import com.hypixel.hytale.server.core.entity.UUIDComponent;
+                                            ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/entity/UUIDComponent.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:14: error: cannot access Player
+import com.hypixel.hytale.server.core.entity.entities.Player;
+                                                     ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/entity/entities/Player.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:15: error: cannot access PendingTeleport
+import com.hypixel.hytale.server.core.modules.entity.teleport.PendingTeleport;
+                                                             ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/modules/entity/teleport/PendingTeleport.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:16: error: cannot access Teleport
+import com.hypixel.hytale.server.core.modules.entity.teleport.Teleport;
+                                                             ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/modules/entity/teleport/Teleport.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:17: error: cannot access Universe
+import com.hypixel.hytale.server.core.universe.Universe;
+                                              ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/universe/Universe.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:18: error: cannot access World
+import com.hypixel.hytale.server.core.universe.world.World;
+                                                    ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/universe/world/World.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:19: error: cannot access EntityStore
+import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
+                                                            ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/universe/world/storage/EntityStore.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:35: error: cannot find symbol
+    public void teleportToEcho(Echo echo, Ref<EntityStore> playerRef, Store<EntityStore> store, World currentWorld) {
+                                          ^
+  symbol:   class Ref
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:35: error: cannot find symbol
+    public void teleportToEcho(Echo echo, Ref<EntityStore> playerRef, Store<EntityStore> store, World currentWorld) {
+                                              ^
+  symbol:   class EntityStore
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:35: error: cannot find symbol
+    public void teleportToEcho(Echo echo, Ref<EntityStore> playerRef, Store<EntityStore> store, World currentWorld) {
+                                                                      ^
+  symbol:   class Store
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:35: error: cannot find symbol
+    public void teleportToEcho(Echo echo, Ref<EntityStore> playerRef, Store<EntityStore> store, World currentWorld) {
+                                                                            ^
+  symbol:   class EntityStore
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:35: error: cannot find symbol
+    public void teleportToEcho(Echo echo, Ref<EntityStore> playerRef, Store<EntityStore> store, World currentWorld) {
+                                                                                                ^
+  symbol:   class World
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:73: error: cannot find symbol
+    private void storeReturnPoint(Ref<EntityStore> playerRef, Store<EntityStore> store, WorldReturnPoint returnPoint) {
+                                  ^
+  symbol:   class Ref
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:73: error: cannot find symbol
+    private void storeReturnPoint(Ref<EntityStore> playerRef, Store<EntityStore> store, WorldReturnPoint returnPoint) {
+                                      ^
+  symbol:   class EntityStore
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:73: error: cannot find symbol
+    private void storeReturnPoint(Ref<EntityStore> playerRef, Store<EntityStore> store, WorldReturnPoint returnPoint) {
+                                                              ^
+  symbol:   class Store
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:73: error: cannot find symbol
+    private void storeReturnPoint(Ref<EntityStore> playerRef, Store<EntityStore> store, WorldReturnPoint returnPoint) {
+                                                                    ^
+  symbol:   class EntityStore
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:73: error: cannot find symbol
+    private void storeReturnPoint(Ref<EntityStore> playerRef, Store<EntityStore> store, WorldReturnPoint returnPoint) {
+                                                                                        ^
+  symbol:   class WorldReturnPoint
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:82: error: cannot find symbol
+    private void createAndTeleportToEcho(Echo echo, Ref<EntityStore> playerRef, Store<EntityStore> store) {
+                                                    ^
+  symbol:   class Ref
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:82: error: cannot find symbol
+    private void createAndTeleportToEcho(Echo echo, Ref<EntityStore> playerRef, Store<EntityStore> store) {
+                                                        ^
+  symbol:   class EntityStore
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:82: error: cannot find symbol
+    private void createAndTeleportToEcho(Echo echo, Ref<EntityStore> playerRef, Store<EntityStore> store) {
+                                                                                ^
+  symbol:   class Store
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:82: error: cannot find symbol
+    private void createAndTeleportToEcho(Echo echo, Ref<EntityStore> playerRef, Store<EntityStore> store) {
+                                                                                      ^
+  symbol:   class EntityStore
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:99: error: cannot find symbol
+    private void clearPendingTeleportOnCompletion(Ref<EntityStore> playerRef, Store<EntityStore> store, CompletableFuture<World> worldFuture) {
+                                                  ^
+  symbol:   class Ref
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:99: error: cannot find symbol
+    private void clearPendingTeleportOnCompletion(Ref<EntityStore> playerRef, Store<EntityStore> store, CompletableFuture<World> worldFuture) {
+                                                      ^
+  symbol:   class EntityStore
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:99: error: cannot find symbol
+    private void clearPendingTeleportOnCompletion(Ref<EntityStore> playerRef, Store<EntityStore> store, CompletableFuture<World> worldFuture) {
+                                                                              ^
+  symbol:   class Store
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:99: error: cannot find symbol
+    private void clearPendingTeleportOnCompletion(Ref<EntityStore> playerRef, Store<EntityStore> store, CompletableFuture<World> worldFuture) {
+                                                                                    ^
+  symbol:   class EntityStore
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:99: error: cannot find symbol
+    private void clearPendingTeleportOnCompletion(Ref<EntityStore> playerRef, Store<EntityStore> store, CompletableFuture<World> worldFuture) {
+                                                                                                                          ^
+  symbol:   class World
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:112: error: cannot find symbol
+    public void returnFromEcho(Ref<EntityStore> playerRef, Store<EntityStore> store, World currentWorld) {
+                               ^
+  symbol:   class Ref
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:112: error: cannot find symbol
+    public void returnFromEcho(Ref<EntityStore> playerRef, Store<EntityStore> store, World currentWorld) {
+                                   ^
+  symbol:   class EntityStore
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:112: error: cannot find symbol
+    public void returnFromEcho(Ref<EntityStore> playerRef, Store<EntityStore> store, World currentWorld) {
+                                                           ^
+  symbol:   class Store
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:112: error: cannot find symbol
+    public void returnFromEcho(Ref<EntityStore> playerRef, Store<EntityStore> store, World currentWorld) {
+                                                                 ^
+  symbol:   class EntityStore
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:112: error: cannot find symbol
+    public void returnFromEcho(Ref<EntityStore> playerRef, Store<EntityStore> store, World currentWorld) {
+                                                                                     ^
+  symbol:   class World
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:157: error: cannot find symbol
+    public boolean isInEchoWorld(World world) {
+                                 ^
+  symbol:   class World
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:161: error: cannot find symbol
+    public boolean hasReturnPoint(Ref<EntityStore> playerRef, Store<EntityStore> store) {
+                                  ^
+  symbol:   class Ref
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:161: error: cannot find symbol
+    public boolean hasReturnPoint(Ref<EntityStore> playerRef, Store<EntityStore> store) {
+                                      ^
+  symbol:   class EntityStore
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:161: error: cannot find symbol
+    public boolean hasReturnPoint(Ref<EntityStore> playerRef, Store<EntityStore> store) {
+                                                              ^
+  symbol:   class Store
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:161: error: cannot find symbol
+    public boolean hasReturnPoint(Ref<EntityStore> playerRef, Store<EntityStore> store) {
+                                                                    ^
+  symbol:   class EntityStore
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:170: error: cannot find symbol
+    public Echo getCurrentEcho(World world) {
+                               ^
+  symbol:   class World
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:174: error: cannot find symbol
+    private Transform getWorldSpawnPoint(World world, java.util.UUID playerUUID) {
+                                         ^
+  symbol:   class World
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:174: error: cannot find symbol
+    private Transform getWorldSpawnPoint(World world, java.util.UUID playerUUID) {
+            ^
+  symbol:   class Transform
+  location: class EchoManager
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonGetCommand.java:4: error: cannot access CommandContext
+import com.hypixel.hytale.server.core.command.system.CommandContext;
+                                                    ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/command/system/CommandContext.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonGetCommand.java:5: error: cannot access AbstractWorldCommand
+import com.hypixel.hytale.server.core.command.system.basecommands.AbstractWorldCommand;
+                                                                 ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/command/system/basecommands/AbstractWorldCommand.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonGetCommand.java:12: error: cannot find symbol
+public class SeasonGetCommand extends AbstractWorldCommand {
+                                      ^
+  symbol: class AbstractWorldCommand
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonGetCommand.java:18: error: cannot find symbol
+    protected void execute(CommandContext context, World world, Store<EntityStore> store) {
+                           ^
+  symbol:   class CommandContext
+  location: class SeasonGetCommand
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonGetCommand.java:18: error: cannot find symbol
+    protected void execute(CommandContext context, World world, Store<EntityStore> store) {
+                                                   ^
+  symbol:   class World
+  location: class SeasonGetCommand
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonGetCommand.java:18: error: cannot find symbol
+    protected void execute(CommandContext context, World world, Store<EntityStore> store) {
+                                                                ^
+  symbol:   class Store
+  location: class SeasonGetCommand
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonGetCommand.java:18: error: cannot find symbol
+    protected void execute(CommandContext context, World world, Store<EntityStore> store) {
+                                                                      ^
+  symbol:   class EntityStore
+  location: class SeasonGetCommand
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonCommand.java:6: error: cannot access AbstractCommandCollection
+import com.hypixel.hytale.server.core.command.system.basecommands.AbstractCommandCollection;
+                                                                 ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/command/system/basecommands/AbstractCommandCollection.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonCommand.java:9: error: cannot access PlayerRef
+import com.hypixel.hytale.server.core.universe.PlayerRef;
+                                              ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/universe/PlayerRef.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonCommand.java:13: error: cannot access CustomPageLifetime
+import com.hypixel.hytale.protocol.packets.interface_.CustomPageLifetime;
+                                                     ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/protocol/packets/interface_/CustomPageLifetime.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonCommand.java:15: error: cannot find symbol
+public class SeasonCommand extends AbstractCommandCollection {
+                                   ^
+  symbol: class AbstractCommandCollection
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonCommand.java:22: error: cannot find symbol
+    private static class SeasonPanelCommand extends AbstractWorldCommand {
+                                                    ^
+  symbol:   class AbstractWorldCommand
+  location: class SeasonCommand
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonCommand.java:28: error: cannot find symbol
+        protected void execute(CommandContext context, World world, Store<EntityStore> store) {
+                               ^
+  symbol:   class CommandContext
+  location: class SeasonPanelCommand
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonCommand.java:28: error: cannot find symbol
+        protected void execute(CommandContext context, World world, Store<EntityStore> store) {
+                                                       ^
+  symbol:   class World
+  location: class SeasonPanelCommand
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonCommand.java:28: error: cannot find symbol
+        protected void execute(CommandContext context, World world, Store<EntityStore> store) {
+                                                                    ^
+  symbol:   class Store
+  location: class SeasonPanelCommand
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonCommand.java:28: error: cannot find symbol
+        protected void execute(CommandContext context, World world, Store<EntityStore> store) {
+                                                                          ^
+  symbol:   class EntityStore
+  location: class SeasonPanelCommand
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:31: error: cannot find symbol
+    public static List<TestResult> testTransitions(World world, Store<EntityStore> store) {
+                                                   ^
+  symbol:   class World
+  location: class SeasonTestRunner
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:31: error: cannot find symbol
+    public static List<TestResult> testTransitions(World world, Store<EntityStore> store) {
+                                                                ^
+  symbol:   class Store
+  location: class SeasonTestRunner
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:31: error: cannot find symbol
+    public static List<TestResult> testTransitions(World world, Store<EntityStore> store) {
+                                                                      ^
+  symbol:   class EntityStore
+  location: class SeasonTestRunner
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:79: error: cannot find symbol
+    public static List<TestResult> testResource(World world, Store<EntityStore> store) {
+                                                ^
+  symbol:   class World
+  location: class SeasonTestRunner
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:79: error: cannot find symbol
+    public static List<TestResult> testResource(World world, Store<EntityStore> store) {
+                                                             ^
+  symbol:   class Store
+  location: class SeasonTestRunner
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:79: error: cannot find symbol
+    public static List<TestResult> testResource(World world, Store<EntityStore> store) {
+                                                                   ^
+  symbol:   class EntityStore
+  location: class SeasonTestRunner
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:112: error: cannot find symbol
+    public static List<TestResult> testCycle(World world, Store<EntityStore> store) {
+                                             ^
+  symbol:   class World
+  location: class SeasonTestRunner
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:112: error: cannot find symbol
+    public static List<TestResult> testCycle(World world, Store<EntityStore> store) {
+                                                          ^
+  symbol:   class Store
+  location: class SeasonTestRunner
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:112: error: cannot find symbol
+    public static List<TestResult> testCycle(World world, Store<EntityStore> store) {
+                                                                ^
+  symbol:   class EntityStore
+  location: class SeasonTestRunner
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:143: error: cannot find symbol
+    public static List<TestResult> testEdgeCases(World world, Store<EntityStore> store) {
+                                                 ^
+  symbol:   class World
+  location: class SeasonTestRunner
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:143: error: cannot find symbol
+    public static List<TestResult> testEdgeCases(World world, Store<EntityStore> store) {
+                                                              ^
+  symbol:   class Store
+  location: class SeasonTestRunner
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:143: error: cannot find symbol
+    public static List<TestResult> testEdgeCases(World world, Store<EntityStore> store) {
+                                                                    ^
+  symbol:   class EntityStore
+  location: class SeasonTestRunner
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:173: error: cannot find symbol
+    public static List<TestResult> testTinting(World world, Store<EntityStore> store) {
+                                               ^
+  symbol:   class World
+  location: class SeasonTestRunner
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:173: error: cannot find symbol
+    public static List<TestResult> testTinting(World world, Store<EntityStore> store) {
+                                                            ^
+  symbol:   class Store
+  location: class SeasonTestRunner
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:173: error: cannot find symbol
+    public static List<TestResult> testTinting(World world, Store<EntityStore> store) {
+                                                                  ^
+  symbol:   class EntityStore
+  location: class SeasonTestRunner
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:4: error: cannot access Vector3i
+import com.hypixel.hytale.math.vector.Vector3i;
+                                     ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/math/vector/Vector3i.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:5: error: cannot access MapMarker
+import com.hypixel.hytale.protocol.packets.worldmap.MapMarker;
+                                                   ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/protocol/packets/worldmap/MapMarker.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:6: error: cannot access PrefabRotation
+import com.hypixel.hytale.server.core.prefab.PrefabRotation;
+                                            ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/prefab/PrefabRotation.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:7: error: cannot access PrefabStore
+import com.hypixel.hytale.server.core.prefab.PrefabStore;
+                                            ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/prefab/PrefabStore.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:8: error: cannot access BlockSelection
+import com.hypixel.hytale.server.core.prefab.selection.standard.BlockSelection;
+                                                               ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/prefab/selection/standard/BlockSelection.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:28: error: cannot find symbol
+    private final World world;
+                  ^
+  symbol:   class World
+  location: class StructureDebugCommand
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:29: error: cannot find symbol
+    private final Store<EntityStore> store;
+                  ^
+  symbol:   class Store
+  location: class StructureDebugCommand
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:29: error: cannot find symbol
+    private final Store<EntityStore> store;
+                        ^
+  symbol:   class EntityStore
+  location: class StructureDebugCommand
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:32: error: cannot find symbol
+    public StructureDebugCommand(World world, Store<EntityStore> store) {
+                                 ^
+  symbol:   class World
+  location: class StructureDebugCommand
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:32: error: cannot find symbol
+    public StructureDebugCommand(World world, Store<EntityStore> store) {
+                                              ^
+  symbol:   class Store
+  location: class StructureDebugCommand
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:32: error: cannot find symbol
+    public StructureDebugCommand(World world, Store<EntityStore> store) {
+                                                    ^
+  symbol:   class EntityStore
+  location: class StructureDebugCommand
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:39: error: cannot find symbol
+    private Store<EntityStore> getValidStore() {
+            ^
+  symbol:   class Store
+  location: class StructureDebugCommand
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:39: error: cannot find symbol
+    private Store<EntityStore> getValidStore() {
+                  ^
+  symbol:   class EntityStore
+  location: class StructureDebugCommand
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:260: error: cannot find symbol
+    public List<String> findStructuresNearby(Vector3i playerPos, int radius) {
+                                             ^
+  symbol:   class Vector3i
+  location: class StructureDebugCommand
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:485: error: cannot find symbol
+    private double calculateDistance(Vector3i pos1, Vector3i pos2) {
+                                     ^
+  symbol:   class Vector3i
+  location: class StructureDebugCommand
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:485: error: cannot find symbol
+    private double calculateDistance(Vector3i pos1, Vector3i pos2) {
+                                                    ^
+  symbol:   class Vector3i
+  location: class StructureDebugCommand
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/SeasonWeatherUI.java:3: error: cannot access Codec
+import com.hypixel.hytale.codec.Codec;
+                               ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/codec/Codec.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/SeasonWeatherUI.java:4: error: cannot access KeyedCodec
+import com.hypixel.hytale.codec.KeyedCodec;
+                               ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/codec/KeyedCodec.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/SeasonWeatherUI.java:5: error: cannot access BuilderCodec
+import com.hypixel.hytale.codec.builder.BuilderCodec;
+                                       ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/codec/builder/BuilderCodec.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+/home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/SeasonWeatherUI.java:9: error: cannot access CustomUIEventBindingType
+import com.hypixel.hytale.protocol.packets.interface_.CustomUIEventBindingType;
+                                                     ^
+  bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/protocol/packets/interface_/CustomUIEventBindingType.class)
+    class file has wrong version 65.0, should be 61.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+100 errors
+
+[Incubating] Problems report is available at: file:///home/kyza/Hytale/Modding/Development/Seasons/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:3: error: cannot access CreativeHubPlugin
+  import com.hypixel.hytale.builtin.creativehub.CreativeHubPlugin;
+                                               ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/builtin/creativehub/CreativeHubPlugin.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:4: error: cannot access InstancesPlugin
+  import com.hypixel.hytale.builtin.instances.InstancesPlugin;
+                                             ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/builtin/instances/InstancesPlugin.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:5: error: cannot access InstanceEntityConfig
+  import com.hypixel.hytale.builtin.instances.config.InstanceEntityConfig;
+                                                    ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/builtin/instances/config/InstanceEntityConfig.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:6: error: cannot access WorldReturnPoint
+  import com.hypixel.hytale.builtin.instances.config.WorldReturnPoint;
+                                                    ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/builtin/instances/config/WorldReturnPoint.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:7: error: cannot access Archetype
+  import com.hypixel.hytale.component.Archetype;
+                                     ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/component/Archetype.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:8: error: cannot access Ref
+  import com.hypixel.hytale.component.Ref;
+                                     ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/component/Ref.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:9: error: cannot access Store
+  import com.hypixel.hytale.component.Store;
+                                     ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/component/Store.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:10: error: cannot access Transform
+  import com.hypixel.hytale.math.vector.Transform;
+                                       ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/math/vector/Transform.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:11: error: cannot access Vector3d
+  import com.hypixel.hytale.math.vector.Vector3d;
+                                       ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/math/vector/Vector3d.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:12: error: cannot access Vector3f
+  import com.hypixel.hytale.math.vector.Vector3f;
+                                       ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/math/vector/Vector3f.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:13: error: cannot access UUIDComponent
+  import com.hypixel.hytale.server.core.entity.UUIDComponent;
+                                              ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/entity/UUIDComponent.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:14: error: cannot access Player
+  import com.hypixel.hytale.server.core.entity.entities.Player;
+                                                       ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/entity/entities/Player.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:15: error: cannot access PendingTeleport
+  import com.hypixel.hytale.server.core.modules.entity.teleport.PendingTeleport;
+                                                               ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/modules/entity/teleport/PendingTeleport.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:16: error: cannot access Teleport
+  import com.hypixel.hytale.server.core.modules.entity.teleport.Teleport;
+                                                               ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/modules/entity/teleport/Teleport.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:17: error: cannot access Universe
+  import com.hypixel.hytale.server.core.universe.Universe;
+                                                ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/universe/Universe.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:18: error: cannot access World
+  import com.hypixel.hytale.server.core.universe.world.World;
+                                                      ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/universe/world/World.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:19: error: cannot access EntityStore
+  import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
+                                                              ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/universe/world/storage/EntityStore.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonGetCommand.java:4: error: cannot access CommandContext
+  import com.hypixel.hytale.server.core.command.system.CommandContext;
+                                                      ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/command/system/CommandContext.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonGetCommand.java:5: error: cannot access AbstractWorldCommand
+  import com.hypixel.hytale.server.core.command.system.basecommands.AbstractWorldCommand;
+                                                                   ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/command/system/basecommands/AbstractWorldCommand.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonCommand.java:6: error: cannot access AbstractCommandCollection
+  import com.hypixel.hytale.server.core.command.system.basecommands.AbstractCommandCollection;
+                                                                   ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/command/system/basecommands/AbstractCommandCollection.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonCommand.java:9: error: cannot access PlayerRef
+  import com.hypixel.hytale.server.core.universe.PlayerRef;
+                                                ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/universe/PlayerRef.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonCommand.java:13: error: cannot access CustomPageLifetime
+  import com.hypixel.hytale.protocol.packets.interface_.CustomPageLifetime;
+                                                       ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/protocol/packets/interface_/CustomPageLifetime.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:4: error: cannot access Vector3i
+  import com.hypixel.hytale.math.vector.Vector3i;
+                                       ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/math/vector/Vector3i.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:5: error: cannot access MapMarker
+  import com.hypixel.hytale.protocol.packets.worldmap.MapMarker;
+                                                     ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/protocol/packets/worldmap/MapMarker.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:6: error: cannot access PrefabRotation
+  import com.hypixel.hytale.server.core.prefab.PrefabRotation;
+                                              ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/prefab/PrefabRotation.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:7: error: cannot access PrefabStore
+  import com.hypixel.hytale.server.core.prefab.PrefabStore;
+                                              ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/prefab/PrefabStore.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:8: error: cannot access BlockSelection
+  import com.hypixel.hytale.server.core.prefab.selection.standard.BlockSelection;
+                                                                 ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/server/core/prefab/selection/standard/BlockSelection.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/SeasonWeatherUI.java:3: error: cannot access Codec
+  import com.hypixel.hytale.codec.Codec;
+                                 ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/codec/Codec.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/SeasonWeatherUI.java:4: error: cannot access KeyedCodec
+  import com.hypixel.hytale.codec.KeyedCodec;
+                                 ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/codec/KeyedCodec.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/SeasonWeatherUI.java:5: error: cannot access BuilderCodec
+  import com.hypixel.hytale.codec.builder.BuilderCodec;
+                                         ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/codec/builder/BuilderCodec.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/SeasonWeatherUI.java:9: error: cannot access CustomUIEventBindingType
+  import com.hypixel.hytale.protocol.packets.interface_.CustomUIEventBindingType;
+                                                       ^
+    bad class file: /home/kyza/Hytale/Modding/Development/Seasons/libs/hytale-api.jar(/com/hypixel/hytale/protocol/packets/interface_/CustomUIEventBindingType.class)
+      class file has wrong version 65.0, should be 61.0
+      Please remove or make sure it appears in the correct subdirectory of the classpath.
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:35: error: cannot find symbol
+      public void teleportToEcho(Echo echo, Ref<EntityStore> playerRef, Store<EntityStore> store, World currentWorld) {
+                                            ^
+    symbol:   class Ref
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:35: error: cannot find symbol
+      public void teleportToEcho(Echo echo, Ref<EntityStore> playerRef, Store<EntityStore> store, World currentWorld) {
+                                                ^
+    symbol:   class EntityStore
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:35: error: cannot find symbol
+      public void teleportToEcho(Echo echo, Ref<EntityStore> playerRef, Store<EntityStore> store, World currentWorld) {
+                                                                        ^
+    symbol:   class Store
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:35: error: cannot find symbol
+      public void teleportToEcho(Echo echo, Ref<EntityStore> playerRef, Store<EntityStore> store, World currentWorld) {
+                                                                              ^
+    symbol:   class EntityStore
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:35: error: cannot find symbol
+      public void teleportToEcho(Echo echo, Ref<EntityStore> playerRef, Store<EntityStore> store, World currentWorld) {
+                                                                                                  ^
+    symbol:   class World
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:73: error: cannot find symbol
+      private void storeReturnPoint(Ref<EntityStore> playerRef, Store<EntityStore> store, WorldReturnPoint returnPoint) {
+                                    ^
+    symbol:   class Ref
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:73: error: cannot find symbol
+      private void storeReturnPoint(Ref<EntityStore> playerRef, Store<EntityStore> store, WorldReturnPoint returnPoint) {
+                                        ^
+    symbol:   class EntityStore
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:73: error: cannot find symbol
+      private void storeReturnPoint(Ref<EntityStore> playerRef, Store<EntityStore> store, WorldReturnPoint returnPoint) {
+                                                                ^
+    symbol:   class Store
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:73: error: cannot find symbol
+      private void storeReturnPoint(Ref<EntityStore> playerRef, Store<EntityStore> store, WorldReturnPoint returnPoint) {
+                                                                      ^
+    symbol:   class EntityStore
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:73: error: cannot find symbol
+      private void storeReturnPoint(Ref<EntityStore> playerRef, Store<EntityStore> store, WorldReturnPoint returnPoint) {
+                                                                                          ^
+    symbol:   class WorldReturnPoint
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:82: error: cannot find symbol
+      private void createAndTeleportToEcho(Echo echo, Ref<EntityStore> playerRef, Store<EntityStore> store) {
+                                                      ^
+    symbol:   class Ref
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:82: error: cannot find symbol
+      private void createAndTeleportToEcho(Echo echo, Ref<EntityStore> playerRef, Store<EntityStore> store) {
+                                                          ^
+    symbol:   class EntityStore
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:82: error: cannot find symbol
+      private void createAndTeleportToEcho(Echo echo, Ref<EntityStore> playerRef, Store<EntityStore> store) {
+                                                                                  ^
+    symbol:   class Store
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:82: error: cannot find symbol
+      private void createAndTeleportToEcho(Echo echo, Ref<EntityStore> playerRef, Store<EntityStore> store) {
+                                                                                        ^
+    symbol:   class EntityStore
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:99: error: cannot find symbol
+      private void clearPendingTeleportOnCompletion(Ref<EntityStore> playerRef, Store<EntityStore> store, CompletableFuture<World> worldFuture) {
+                                                    ^
+    symbol:   class Ref
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:99: error: cannot find symbol
+      private void clearPendingTeleportOnCompletion(Ref<EntityStore> playerRef, Store<EntityStore> store, CompletableFuture<World> worldFuture) {
+                                                        ^
+    symbol:   class EntityStore
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:99: error: cannot find symbol
+      private void clearPendingTeleportOnCompletion(Ref<EntityStore> playerRef, Store<EntityStore> store, CompletableFuture<World> worldFuture) {
+                                                                                ^
+    symbol:   class Store
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:99: error: cannot find symbol
+      private void clearPendingTeleportOnCompletion(Ref<EntityStore> playerRef, Store<EntityStore> store, CompletableFuture<World> worldFuture) {
+                                                                                      ^
+    symbol:   class EntityStore
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:99: error: cannot find symbol
+      private void clearPendingTeleportOnCompletion(Ref<EntityStore> playerRef, Store<EntityStore> store, CompletableFuture<World> worldFuture) {
+                                                                                                                            ^
+    symbol:   class World
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:112: error: cannot find symbol
+      public void returnFromEcho(Ref<EntityStore> playerRef, Store<EntityStore> store, World currentWorld) {
+                                 ^
+    symbol:   class Ref
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:112: error: cannot find symbol
+      public void returnFromEcho(Ref<EntityStore> playerRef, Store<EntityStore> store, World currentWorld) {
+                                     ^
+    symbol:   class EntityStore
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:112: error: cannot find symbol
+      public void returnFromEcho(Ref<EntityStore> playerRef, Store<EntityStore> store, World currentWorld) {
+                                                             ^
+    symbol:   class Store
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:112: error: cannot find symbol
+      public void returnFromEcho(Ref<EntityStore> playerRef, Store<EntityStore> store, World currentWorld) {
+                                                                   ^
+    symbol:   class EntityStore
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:112: error: cannot find symbol
+      public void returnFromEcho(Ref<EntityStore> playerRef, Store<EntityStore> store, World currentWorld) {
+                                                                                       ^
+    symbol:   class World
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:157: error: cannot find symbol
+      public boolean isInEchoWorld(World world) {
+                                   ^
+    symbol:   class World
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:161: error: cannot find symbol
+      public boolean hasReturnPoint(Ref<EntityStore> playerRef, Store<EntityStore> store) {
+                                    ^
+    symbol:   class Ref
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:161: error: cannot find symbol
+      public boolean hasReturnPoint(Ref<EntityStore> playerRef, Store<EntityStore> store) {
+                                        ^
+    symbol:   class EntityStore
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:161: error: cannot find symbol
+      public boolean hasReturnPoint(Ref<EntityStore> playerRef, Store<EntityStore> store) {
+                                                                ^
+    symbol:   class Store
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:161: error: cannot find symbol
+      public boolean hasReturnPoint(Ref<EntityStore> playerRef, Store<EntityStore> store) {
+                                                                      ^
+    symbol:   class EntityStore
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:170: error: cannot find symbol
+      public Echo getCurrentEcho(World world) {
+                                 ^
+    symbol:   class World
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:174: error: cannot find symbol
+      private Transform getWorldSpawnPoint(World world, java.util.UUID playerUUID) {
+                                           ^
+    symbol:   class World
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/echo/EchoManager.java:174: error: cannot find symbol
+      private Transform getWorldSpawnPoint(World world, java.util.UUID playerUUID) {
+              ^
+    symbol:   class Transform
+    location: class EchoManager
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonGetCommand.java:18: error: cannot find symbol
+      protected void execute(CommandContext context, World world, Store<EntityStore> store) {
+                             ^
+    symbol:   class CommandContext
+    location: class SeasonGetCommand
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonGetCommand.java:18: error: cannot find symbol
+      protected void execute(CommandContext context, World world, Store<EntityStore> store) {
+                                                     ^
+    symbol:   class World
+    location: class SeasonGetCommand
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonGetCommand.java:18: error: cannot find symbol
+      protected void execute(CommandContext context, World world, Store<EntityStore> store) {
+                                                                  ^
+    symbol:   class Store
+    location: class SeasonGetCommand
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonGetCommand.java:18: error: cannot find symbol
+      protected void execute(CommandContext context, World world, Store<EntityStore> store) {
+                                                                        ^
+    symbol:   class EntityStore
+    location: class SeasonGetCommand
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonCommand.java:22: error: cannot find symbol
+      private static class SeasonPanelCommand extends AbstractWorldCommand {
+                                                      ^
+    symbol:   class AbstractWorldCommand
+    location: class SeasonCommand
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonCommand.java:28: error: cannot find symbol
+          protected void execute(CommandContext context, World world, Store<EntityStore> store) {
+                                 ^
+    symbol:   class CommandContext
+    location: class SeasonPanelCommand
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonCommand.java:28: error: cannot find symbol
+          protected void execute(CommandContext context, World world, Store<EntityStore> store) {
+                                                         ^
+    symbol:   class World
+    location: class SeasonPanelCommand
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonCommand.java:28: error: cannot find symbol
+          protected void execute(CommandContext context, World world, Store<EntityStore> store) {
+                                                                      ^
+    symbol:   class Store
+    location: class SeasonPanelCommand
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonCommand.java:28: error: cannot find symbol
+          protected void execute(CommandContext context, World world, Store<EntityStore> store) {
+                                                                            ^
+    symbol:   class EntityStore
+    location: class SeasonPanelCommand
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:31: error: cannot find symbol
+      public static List<TestResult> testTransitions(World world, Store<EntityStore> store) {
+                                                     ^
+    symbol:   class World
+    location: class SeasonTestRunner
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:31: error: cannot find symbol
+      public static List<TestResult> testTransitions(World world, Store<EntityStore> store) {
+                                                                  ^
+    symbol:   class Store
+    location: class SeasonTestRunner
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:31: error: cannot find symbol
+      public static List<TestResult> testTransitions(World world, Store<EntityStore> store) {
+                                                                        ^
+    symbol:   class EntityStore
+    location: class SeasonTestRunner
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:79: error: cannot find symbol
+      public static List<TestResult> testResource(World world, Store<EntityStore> store) {
+                                                  ^
+    symbol:   class World
+    location: class SeasonTestRunner
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:79: error: cannot find symbol
+      public static List<TestResult> testResource(World world, Store<EntityStore> store) {
+                                                               ^
+    symbol:   class Store
+    location: class SeasonTestRunner
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:79: error: cannot find symbol
+      public static List<TestResult> testResource(World world, Store<EntityStore> store) {
+                                                                     ^
+    symbol:   class EntityStore
+    location: class SeasonTestRunner
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:112: error: cannot find symbol
+      public static List<TestResult> testCycle(World world, Store<EntityStore> store) {
+                                               ^
+    symbol:   class World
+    location: class SeasonTestRunner
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:112: error: cannot find symbol
+      public static List<TestResult> testCycle(World world, Store<EntityStore> store) {
+                                                            ^
+    symbol:   class Store
+    location: class SeasonTestRunner
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:112: error: cannot find symbol
+      public static List<TestResult> testCycle(World world, Store<EntityStore> store) {
+                                                                  ^
+    symbol:   class EntityStore
+    location: class SeasonTestRunner
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:143: error: cannot find symbol
+      public static List<TestResult> testEdgeCases(World world, Store<EntityStore> store) {
+                                                   ^
+    symbol:   class World
+    location: class SeasonTestRunner
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:143: error: cannot find symbol
+      public static List<TestResult> testEdgeCases(World world, Store<EntityStore> store) {
+                                                                ^
+    symbol:   class Store
+    location: class SeasonTestRunner
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:143: error: cannot find symbol
+      public static List<TestResult> testEdgeCases(World world, Store<EntityStore> store) {
+                                                                      ^
+    symbol:   class EntityStore
+    location: class SeasonTestRunner
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:173: error: cannot find symbol
+      public static List<TestResult> testTinting(World world, Store<EntityStore> store) {
+                                                 ^
+    symbol:   class World
+    location: class SeasonTestRunner
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:173: error: cannot find symbol
+      public static List<TestResult> testTinting(World world, Store<EntityStore> store) {
+                                                              ^
+    symbol:   class Store
+    location: class SeasonTestRunner
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/util/SeasonTestRunner.java:173: error: cannot find symbol
+      public static List<TestResult> testTinting(World world, Store<EntityStore> store) {
+                                                                    ^
+    symbol:   class EntityStore
+    location: class SeasonTestRunner
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:28: error: cannot find symbol
+      private final World world;
+                    ^
+    symbol:   class World
+    location: class StructureDebugCommand
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:29: error: cannot find symbol
+      private final Store<EntityStore> store;
+                    ^
+    symbol:   class Store
+    location: class StructureDebugCommand
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:29: error: cannot find symbol
+      private final Store<EntityStore> store;
+                          ^
+    symbol:   class EntityStore
+    location: class StructureDebugCommand
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:32: error: cannot find symbol
+      public StructureDebugCommand(World world, Store<EntityStore> store) {
+                                   ^
+    symbol:   class World
+    location: class StructureDebugCommand
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:32: error: cannot find symbol
+      public StructureDebugCommand(World world, Store<EntityStore> store) {
+                                                ^
+    symbol:   class Store
+    location: class StructureDebugCommand
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:32: error: cannot find symbol
+      public StructureDebugCommand(World world, Store<EntityStore> store) {
+                                                      ^
+    symbol:   class EntityStore
+    location: class StructureDebugCommand
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:39: error: cannot find symbol
+      private Store<EntityStore> getValidStore() {
+              ^
+    symbol:   class Store
+    location: class StructureDebugCommand
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:39: error: cannot find symbol
+      private Store<EntityStore> getValidStore() {
+                    ^
+    symbol:   class EntityStore
+    location: class StructureDebugCommand
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:260: error: cannot find symbol
+      public List<String> findStructuresNearby(Vector3i playerPos, int radius) {
+                                               ^
+    symbol:   class Vector3i
+    location: class StructureDebugCommand
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:485: error: cannot find symbol
+      private double calculateDistance(Vector3i pos1, Vector3i pos2) {
+                                       ^
+    symbol:   class Vector3i
+    location: class StructureDebugCommand
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/ui/debug/StructureDebugCommand.java:485: error: cannot find symbol
+      private double calculateDistance(Vector3i pos1, Vector3i pos2) {
+                                                      ^
+    symbol:   class Vector3i
+    location: class StructureDebugCommand
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonGetCommand.java:12: error: cannot find symbol
+  public class SeasonGetCommand extends AbstractWorldCommand {
+                                        ^
+    symbol: class AbstractWorldCommand
+  /home/kyza/Hytale/Modding/Development/Seasons/src/main/java/com/hypixel/seasons/commands/SeasonCommand.java:15: error: cannot find symbol
+  public class SeasonCommand extends AbstractCommandCollection {
+                                     ^
+    symbol: class AbstractCommandCollection
+  100 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to generate a Build Scan (powered by Develocity).
+
+BUILD FAILED in 501ms
+1 actionable task: 1 executed
